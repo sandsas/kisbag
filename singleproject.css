@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: dodgerblue;
+}
+.container_main{
+    max-width: 1366px;
+    margin: 0 auto;
+    background-color: wheat;
+}
+
+.header {
+	max-width: 1246px;
+	margin: 0 60px;
+	height: 130px;
+}
+
+.logo {
+	width: 623px;
+	float: left;
+    padding-top: 47px;
+}
+
+.menu {
+	width: 623px;
+	float: right;
+	text-align: right;
+    padding-top: 47px;
+}
+
+.slider {
+	padding: 0 100px;
+}
+
+.project_area {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.row_1 {
+	height: 500px;
+	padding-top: 100px;
+}
+
+.left_col {
+	float: left;
+	width: 584px;
+	padding-top: 15px;
+}
+
+.left_col p{
+    padding: 105px;
+}
+
+.right_col {
+	float: right;
+	width: 584px;
+}
+
+.right_col img{
+	padding: 15px;
+}
+
+
+
+.row_2{
+    height: 250px;
+}
+
+.project_date {
+	width: 584px;
+	float: left;
+}
+
+.project_date p {
+	padding-left: 15px;
+	padding-top: 20px;
+}
+
+.challenge {
+	width: 584px;
+	float: right;
+}
+
+.challenge p {
+	padding-left: 15px;
+	padding-top: 40px;
+}
+
+.row_3 {
+	height: 400px;
+	padding: 15px;
+}
+
+.row_3 img {
+	padding-right: 10px;
+}
+
+.row_3 img:last-child{
+    padding-right: 0px;
+}
+
+.row_4{
+    height: 320px;
+}
+
+.project_role{
+    width: 584px;
+	float: left;
+}
+
+.project_role p{
+    padding-left: 15px;
+	padding-top: 20px;
+}
+
+.our_approach{
+    width: 584px;
+	float: right;
+}
+
+.our_approach p{
+    padding-left: 15px;
+	padding-top: 40px;
+}
+
+.row_5 {
+	height: 435px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.row_5 img {
+	padding-right: 28px;
+}
+
+.row_5 img:last-child{
+    padding-right: 0px;
+}
+
+.row_6 {
+	padding: 35px 15px;
+}
