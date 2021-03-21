@@ -3,8 +3,10 @@
     padding: 0;
 }
 
+
 body{
     background-color: dodgerblue;
+	font-family: 'Roboto', sans-serif;
 }
 .container_main{
     max-width: 1366px;
@@ -24,11 +26,21 @@ body{
     padding-top: 47px;
 }
 
+.logo a{
+	text-decoration: none;
+	color: black;
+}
+
 .menu {
 	width: 623px;
 	float: right;
 	text-align: right;
     padding-top: 47px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: black;
 }
 
 .slider {
@@ -134,7 +146,7 @@ body{
 }
 
 .row_5 img {
-	padding-right: 28px;
+	padding-right: 25px;
 }
 
 .row_5 img:last-child{
@@ -143,4 +155,59 @@ body{
 
 .row_6 {
 	padding: 35px 15px;
+}
+
+.footer_top {
+	width: 1170px;
+	height: 100px;
+	margin-top: 100px;
+	margin-left: 530px;
+	margin: 100px 560px;
+}
+
+.footer_top a {
+	border: 2px solid;
+	width: 200px;
+	text-align: center;
+	padding: 15px 25px;
+	text-decoration: none;
+	color: black;
+}
+
+.footer {
+	width: 1140px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 100px;
+}
+
+.get_in_touch {
+	width: 30%;
+}
+
+.get_in_touch a{
+	color: black;
+}
+
+.social_icon {
+	width: 30%;
+}
+
+.social_icon a {
+	display: block;
+	text-decoration: none;
+	padding: 5px;
+	color: black;
+}
+
+.menu_items {
+	width: 30%;
+}
+
+.menu_items a{
+	display: block;
+	text-decoration: none;
+	padding: 5px;
+	color: black;
 }
