@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap');
+
+body{
+    background-color: dodgerblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.main_container {
+	max-width: 1366px;	
+    /* background-color: rgb(224, 0, 0); */
+    background-color: wheat;
+    margin: auto;
+}
+
+.inner_container{
+    max-width: 1246px;
+    /* background-color:rgb(144, 3, 3); */
+    margin: auto;  
+}
+
+.innermost_container{
+    max-width: 1170px;
+    /* background-color: rgb(235, 8, 8); */
+    margin: auto;
+}
+
+.header {
+	height: 130px;
+	display: flex;
+	margin: 0px 60px;
+	padding-top: 40px;
+}
+
+.logo {
+	width: 50%;
+}
+
+.menu {
+	width: 50%;
+	display: flex;
+	justify-content: right;
+}
+
+.project_title {
+	display: flex;
+	padding-top: 105px;
+}
+
+.project_title p {
+	padding: 90px 110px;
+}
+
+.project_title img {
+	padding: 0px 15px;
+}
+
+.project_challenge {
+	display: flex;
+	padding-top: 135px;
+}
+
+.project_date {
+	width: 50%;
+}
+
+.project_date p {
+	padding: 40px 15px;
+}
+
+.the_challenge {
+	width: 50%;
+}
+
+.the_challenge p {
+	padding: 40px 15px;
+}
+
+.bellow_porject_challenge {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 115px;
+}
+
+.project_approach {
+	display: flex;
+	padding-top: 130px;
+}
+
+.project_role {
+	width: 50%;
+}
+
+.project_role p {
+	padding: 40px 15px;
+}
+
+.our_approach {
+	width: 50%;
+}
+
+.our_approach p {
+	padding: 40px 15px;
+}
+
+.bellow_project_approach {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 120px;
+}
+
+.after_bellow_project_approach {
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.all_works_btn {
+	display: flex;
+	padding-top: 100px;
+	justify-content: center;
+}
+
+.all_works_btn a {
+	border: 1px solid;
+	padding: 10px;
+}
+
+.footer {
+	display: flex;
+	padding-top: 100px;
+    padding-bottom: 200px;
+	justify-content: space-around;
+}
+
+.get_in_touch {
+	width: 33.33%;
+	padding-left: 75px;
+}
+
+.social_link {
+	width: 33.33%;
+	padding-left: 75px;
+}
+
+.social_link a {
+	display: block;
+}
+
+.menu_link {
+	width: 33.33%;
+    padding-left: 75px;
+}
+
+.menu_link a {
+	display: block;
+}
