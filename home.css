@@ -124,4 +124,25 @@ a{
 .footer {
 	height: 400px;
 	display: flex;
+	padding-top: 85px;
+}
+
+.left {
+	width: 33.33%;
+	padding-left: 50px;
+}
+
+.middle {
+	width: 33.33%;
+}
+.middle a{
+	display: block;
+}
+
+.right {
+	width: 33.33%;
+}
+
+.right a{
+	display: block;
 }
